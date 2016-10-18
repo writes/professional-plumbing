@@ -776,6 +776,10 @@ a.btn-cta {
   font-weight: 300;
   margin-bottom: 30px;
 }
+.contact-section .btn-cta {
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
 .contact-content {
   max-width: 600px;
   margin: 0 auto;
