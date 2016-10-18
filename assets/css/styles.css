@@ -6,6 +6,12 @@
  * Twitter: @3rdwave_themes
 * License: Creative Commons Attribution 3.0 License
 */
+
+/* Modifiers */
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+
 /* Theme default */
 body {
   font-family: 'Open Sans', arial, sans-serif;
@@ -774,6 +780,13 @@ a.btn-cta {
   max-width: 600px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+.contact-content a {
+  color: #fff;
+  text-decoration: underline;
+}
+.contact-content a:hover {
+  color: #3aa7aa;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
