@@ -253,7 +253,7 @@ a.btn-cta {
 .footer {
   background: #26282c;
   color: rgba(255, 255, 255, 0.6);
-  padding: 15px 0;
+  padding: 0;
 }
 .footer a {
   color: #40babd;
@@ -366,6 +366,9 @@ a.btn-cta {
 }
 .about-section .items-wrapper .item-desc {
   color: #616670;
+}
+.copyright {
+  font-size: 70%;
 }
 .technologies {
   margin-bottom: 90px;
