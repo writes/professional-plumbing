@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Appkit Landing - Responsive Website Template for Developers
  * Version: 1.0
  * Author: Xiaoying Riley
@@ -53,11 +53,11 @@ a.btn .fa {
 a.btn-cta {
   font-weight: bold;
   font-size: 16px;
-  padding: 10px 30px;
+  padding: 20px 150px;
 }
 .btn-primary {
-  background: #40babd;
-  border: 1px solid #40babd;
+  background: #888;
+  border: 1px solid #fff;
   color: #fff;
 }
 .btn-primary:hover,
@@ -65,9 +65,9 @@ a.btn-cta {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.hover {
-  background: #3aa7aa;
+  background: #000;
   color: #fff;
-  border: 1px solid #3aa7aa;
+  border: 1px solid #fff;
 }
 .carousel-fade .carousel-inner .item {
   transition-property: opacity;
@@ -113,6 +113,7 @@ a.btn-cta {
 }
 /* ======= Header ======= */
 .header {
+  background: #000;
   position: fixed;
   width: 100%;
   z-index: 30;
@@ -159,7 +160,7 @@ a.btn-cta {
 }
 .header.header-scrolled .main-nav .nav .nav-item.active a {
   color: #494d55;
-  border-bottom: 4px solid #40babd;
+  border-bottom: 4px solid #888;
 }
 .header a {
   color: #fff;
@@ -257,6 +258,9 @@ a.btn-cta {
 .footer a {
   color: #40babd;
 }
+.footer .copyright a {
+  color: #888;
+}
 .footer .fa-heart {
   color: #EA5395;
 }
@@ -292,25 +296,25 @@ a.btn-cta {
   background-position: center center;
 }
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url('../images/hero-1.jpg');
+  background-image: url('../images/hero_wrench.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url('../images/hero-2.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /*background-image: url('../images/hero-2.jpg');*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
 }
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url('../images/hero-3.jpg');
+  /*background-image: url('../images/hero-3.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 .hero-carousel .carousel-inner .heading {
   font-size: 30px;
@@ -323,7 +327,7 @@ a.btn-cta {
   font-size: 18px;
 }
 .hero-carousel .carousel-inner .intro + .btn {
-  margin-top: 15px;
+  margin-top: -140px;
 }
 /* ======= About Section ======= */
 .about-section {
@@ -506,6 +510,12 @@ a.btn-cta {
   color: rgba(0, 0, 0, 0.6);
 }
 /* ======= Features Section ======= */
+.feature-content {
+  top: 60px;
+}
+.feature-content .fa {
+  font-size: 100px;
+}
 .features-section {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -521,7 +531,7 @@ a.btn-cta {
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 .feature-nav {
   text-align: center;
