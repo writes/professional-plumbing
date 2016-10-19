@@ -12,6 +12,46 @@
 .left { text-align: left; }
 .right { text-align: right; }
 
+/* Logo */
+.p1, .p2, .pro, .plumb, .sub-logo {
+  font-family: Arial;
+  position: relative;
+}
+
+.p1 {
+  bottom: 15px;
+}
+.p2 {
+  right: 8px;
+}
+.p1,
+.p2 {
+  font-weight: bold;
+}
+.pro {
+  bottom: 15px;
+}
+.plumb {
+  bottom: 30px;
+  margin-left: 45px;
+}
+.plumb,
+.pro {
+  font-size: 16px;
+  right: 10px;
+}
+.sub-logo {
+  /*background-color: #fff;*/
+  border: 1px solid #fff;
+  bottom: 37px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 0 0 20px;
+  padding: 2px 5px;
+  right: 25px;
+}
+.header.header-scrolled .sub-logo { border-color: #000; color: #000; }
+
 /* Theme default */
 body {
   font-family: 'Open Sans', arial, sans-serif;
@@ -123,7 +163,7 @@ a.btn-cta {
   position: fixed;
   width: 100%;
   z-index: 30;
-  height: 60px;
+  height: 80px;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -194,9 +234,6 @@ a.btn-cta {
 .header .logo .logo-icon {
   width: 30px;
   height: 30px;
-}
-.header .logo .highlight {
-  font-weight: 800;
 }
 .main-nav {
   margin-top: 6px;
@@ -272,7 +309,6 @@ a.btn-cta {
 }
 /* ======= Hero Section ======= */
 .hero-section {
-  min-height: 560px;
   background: #494d55;
   position: relative;
 }
@@ -294,15 +330,15 @@ a.btn-cta {
   z-index: 10;
 }
 .hero-carousel {
-  height: 560px;
+  height: 400px;
   color: #fff;
 }
 .hero-carousel .carousel-inner .item {
-  height: 560px;
-  background-position: center center;
+  height: 400px;
+  /*background-position: center center;*/
 }
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url('../images/hero_wrench.jpg');
+  background-image: url('../images/building.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -794,6 +830,9 @@ a.btn-cta {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  .carousel-inner .btn-cta {
+    padding: 20px 115px;;
+  }
   .navbar-collapse {
     border-top: none;
     -webkit-box-shadow: none;
