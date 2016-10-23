@@ -385,8 +385,21 @@ a.btn-cta {
   color: #a2a6af;
   font-size: 16px;
   max-width: 760px;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: 60px;
+}
+.about-section .about-btn {
+  padding: 20px 150px;
+  position: relative;
+}
+.about-section .about-btn.call {
+  left: 30px;
+}
+.about-section .about-btn.email {
+  left: 55px;
+}
+.about-section .about-img {
+  left: 25px;
 }
 .about-section .items-wrapper {
   margin-bottom: 60px;
