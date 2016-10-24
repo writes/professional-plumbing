@@ -12,6 +12,7 @@
 .left { text-align: left; }
 .right { text-align: right; }
 
+
 /* Logo */
 .p1, .p2, .pro, .plumb, .sub-logo {
   font-family: Arial;
@@ -630,6 +631,7 @@ a.btn-cta {
 }
 
 .services-subhead { margin-left: 35px; }
+.services-tab-link .fa { bottom: -3px; font-size: 1.5em; position: relative; }
 .services-tab-link-1 { top: 25px; }
 .services-tab-link-2 { top: 75px; }
 
@@ -868,6 +870,17 @@ a.btn-cta {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  .hide-small { display: none !important; }
+  .about-img { width: 100%; }
+  .about-section { padding-left: 0; }
+  .about-section .about-btn { padding: 20px 0; width: 100%; }
+  .about-section .about-btn.email { left: 0px; top: 20px; }
+  .about-section .about-btn.call { left: 0px; top: 40px; }
+  .services-tab-link { left: 90px; }
+  .services-tab-content-right { margin: 0; }
+  .services-tab-content-right .services-subhead { margin-left: 0; }
+  .services-tab-content-right .services-list { padding-left: 0; }
+
   .carousel-inner .btn-cta {
     padding: 20px 115px;;
   }
@@ -878,7 +891,7 @@ a.btn-cta {
     box-shadow: none;
     width: 100%;
     left: 0;
-    top: 60px;
+    top: 75px;
     position: absolute;
     background: #26282c;
     z-index: 40;
@@ -951,6 +964,25 @@ a.btn-cta {
   .team-section .item-inner {
     min-height: inherit;
   }
+}
+@media (min-width: 768px ) and (max-width: 992px ) {
+  .about-img {
+    width: 100%;
+  }
+  .about-section {
+    padding-left: 0;
+  }
+  .about-section .about-btn.call {
+    left: 380px;
+    padding: 20px 128px;
+    top: -215px;
+  }
+  .about-section .about-btn.email {
+    left: 380px;
+    padding: 20px 120px;
+    top: -65px;
+  }
+  .hide-tablet { display: none !important; }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
